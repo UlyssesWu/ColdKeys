@@ -18,7 +18,7 @@ namespace Noelle.ColdKeys
     public partial class FormMain : Form
     {
         public string ProgramNameWithoutExt = "utility";
-        public string HotKeysAppId = "E0469640.LenovoUtility_5grkq8ppsgwt4!LenovoUtility";
+        public string HotKeysAppId = "E0469640.LenovoUtility_5grkq8ppsgwt4!LenovoUtility"; //get-StartApps
 
         public FormMain()
         {

@@ -52,7 +52,7 @@
             // 
             // btnNumLk
             // 
-            this.btnNumLk.Location = new System.Drawing.Point(64, 115);
+            this.btnNumLk.Location = new System.Drawing.Point(64, 113);
             this.btnNumLk.Name = "btnNumLk";
             this.btnNumLk.Size = new System.Drawing.Size(246, 50);
             this.btnNumLk.TabIndex = 0;
@@ -63,18 +63,18 @@
             // 
             // btnSuspend
             // 
-            this.btnSuspend.Location = new System.Drawing.Point(64, 190);
+            this.btnSuspend.Location = new System.Drawing.Point(64, 332);
             this.btnSuspend.Name = "btnSuspend";
             this.btnSuspend.Size = new System.Drawing.Size(246, 50);
             this.btnSuspend.TabIndex = 0;
             this.btnSuspend.Text = "暂停/恢复HotKeys服务";
-            this.toolTipMain.SetToolTip(this.btnSuspend, "点击后暂停HotKeys服务，所有提示均不再显示；再次点击恢复。");
+            this.toolTipMain.SetToolTip(this.btnSuspend, "【可能造成输入卡顿，不推荐！】\r\n点击后暂停HotKeys服务，所有提示均不再显示；再次点击恢复。");
             this.btnSuspend.UseVisualStyleBackColor = true;
             this.btnSuspend.Click += new System.EventHandler(this.btnSuspend_Click);
             // 
             // btnKillProcess
             // 
-            this.btnKillProcess.Location = new System.Drawing.Point(64, 265);
+            this.btnKillProcess.Location = new System.Drawing.Point(64, 186);
             this.btnKillProcess.Name = "btnKillProcess";
             this.btnKillProcess.Size = new System.Drawing.Size(246, 50);
             this.btnKillProcess.TabIndex = 0;
@@ -99,7 +99,7 @@
             // 
             // btnLaunchHotKeys
             // 
-            this.btnLaunchHotKeys.Location = new System.Drawing.Point(64, 340);
+            this.btnLaunchHotKeys.Location = new System.Drawing.Point(64, 259);
             this.btnLaunchHotKeys.Name = "btnLaunchHotKeys";
             this.btnLaunchHotKeys.Size = new System.Drawing.Size(246, 50);
             this.btnLaunchHotKeys.TabIndex = 0;
@@ -122,6 +122,7 @@
             this.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.Text = "ColdKeys";
             this.ResumeLayout(false);
