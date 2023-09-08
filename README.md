@@ -1,4 +1,9 @@
 # ColdKeys
+
+本工具已暂停维护，您可以改用LenovoLegionToolkit。
+
+Please try this instead: https://github.com/BartoszCichecki/LenovoLegionToolkit
+
 本工具用于禁用联想笔记本电脑内置软件**Lenovo HotKeys**的部分干扰视线的屏幕提示（大小写切换/小键盘）。
 
 This tool disables Lenovo HotKeys On-Screen Display for CapsLock and NumLock.
